@@ -1,22 +1,37 @@
 
-# Minecraft Mini (Multiplayer via WebSocket)
+# Minecraft Mini (Многопользовательская версия)
 
-A minimal Minecraft-style multiplayer game that works in any browser.
+Минимальная многопользовательская версия игры, похожая на Minecraft, работающая в любом браузере.
 
-## Features
-- Move using arrow keys or on-screen buttons
-- Real-time sync via WebSocket
-- Multiplayer support via a single Node.js server
+## Особенности
+- Перемещение с помощью клавиш стрелок или кнопок на экране
+- Реальная синхронизация в реальном времени через WebSocket
+- Поддержка многопользовательского режима через один сервер Node.js
 
-## How to Run (Locally)
-```bash
-npm install
-node server.js
-```
-Open `http://localhost:3000` in your browser.
+## Как запустить (локально)
+1. Установите зависимости:
+   ```bash
+   npm install
+   ```
 
-## Deploy on Railway
-1. Create a Railway account at https://railway.app
-2. Create a new project and link this GitHub repo
-3. Deploy and get your public URL
-4. Share the link with friends to play online together!
+2. Запустите сервер:
+   ```bash
+   node server.js
+   ```
+
+3. Откройте браузер и перейдите по адресу:
+   ```
+   http://localhost:3000
+   ```
+
+## Как развернуть на Railway
+1. Создайте аккаунт на [Railway](https://railway.app)
+2. Создайте новый проект и подключите этот репозиторий
+3. Railway автоматически установит зависимости и запустит сервер
+4. Получите публичную ссылку и поделитесь ею с друзьями, чтобы играть вместе!
+
+## Управление
+- **Клавиши стрелок** для перемещения.
+- **Кнопки на экране** для мобильных устройств.
+
+Наслаждайтесь игрой и пригласите своих друзей!
